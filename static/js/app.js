@@ -34,12 +34,12 @@ filterButton.on("click", function() {
   console.log(filteredData);
 });
  
-// d3.select(".table table-striped")
-//     .append("table-head").text(${Date})
-//     .append("table-head").text(${City})
-//     .append("table-head").text(${State})
-//     .append("table-head").text(${Country})
-//     .append("table-head").text(${Shape})
-//     .append("table-head").text(${Duration})
-//     .append("table-head").text(${Comments})
-// });
+d3.select(".table table-striped")
+    .append("table-head").text(${Datetime})
+    .append("table-head").text(${City})
+    .append("table-head").text(${State})
+    .append("table-head").text(${Country})
+    .append("table-head").text(${Shape})
+    .append("table-head").text(${Duration})
+    .append("table-head").text(${Comments})
+});
